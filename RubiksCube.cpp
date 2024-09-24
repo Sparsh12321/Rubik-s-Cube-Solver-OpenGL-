@@ -1,6 +1,6 @@
 /*~~~~~~~~~~~~~~~~~~*
  *                  *
- * $Dollar Akshay$  *
+ *p1llaianddr.sparsh*
  *                  *
  *~~~~~~~~~~~~~~~~~~*/
 #include<stdlib.h>
