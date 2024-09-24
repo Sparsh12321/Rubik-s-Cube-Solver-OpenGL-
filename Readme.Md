@@ -1,1 +1,2 @@
 Rubiks cube solver
+This project features an interactive 3D Rubik's Cube solver implemented in OpenGL. Utilizing algorithms for solving the classic puzzle, the application allows users to manipulate the cube in real-time and visualize the solving process. The cube’s vibrant colors enhance user engagement, while intuitive controls facilitate easy interaction. The solver efficiently computes and displays the step-by-step solution, making it an educational tool for both puzzle enthusiasts and newcomers alike.
