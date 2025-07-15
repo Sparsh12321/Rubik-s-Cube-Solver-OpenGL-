@@ -1,2 +1,69 @@
-Rubiks cube solver
-This project features an interactive 3D Rubik's Cube solver implemented in OpenGL. Utilizing algorithms for solving the classic puzzle, the application allows users to manipulate the cube in real-time and visualize the solving process. The cube’s vibrant colors enhance user engagement, while intuitive controls facilitate easy interaction. The solver efficiently computes and displays the step-by-step solution, making it an educational tool for both puzzle enthusiasts and newcomers alike.
+# 🧊 Rubik's Cube Solver - OpenGL
+
+![C++](https://img.shields.io/badge/C%2B%2B-OpenGL-blue?logo=c%2B%2B&logoColor=white)
+![License](https://img.shields.io/github/license/Sparsh12321/Rubik-s-Cube-Solver-OpenGL)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey)
+
+A 3D interactive Rubik’s Cube visualizer and solver built using **OpenGL** and **C++**, capable of solving any scrambled cube using the **Breadth-First Search (BFS)** algorithm. This project combines the logic of cube solving with real-time rendering and animation.
+
+---
+
+## ✨ Features
+
+- 🎮 Interactive 3D Rubik’s Cube using **OpenGL**
+- 🤖 Automatic solver using **Breadth-First Search (BFS)**
+- 🔀 Random scrambler with valid move sequences
+- 🎞️ Smooth cube rotation and layer-turn animations
+- 🧠 Solves from **any valid cube state**
+- 🪟 Simple keyboard/mouse controls
+
+---
+
+## 📸 Demo
+
+---
+
+## 🧠 Algorithm - BFS Explained
+
+This project uses **Breadth-First Search (BFS)** to solve the Rubik's Cube:
+
+- Treats the cube as a **state-space tree**, where each node represents a cube state.
+- Each edge corresponds to a **valid move** (e.g., U, R', F2).
+- Performs a level-order traversal starting from the scrambled state.
+- Stores visited states using a **hash map** or cube string representation to avoid revisiting.
+- The goal is the **solved state**, and the first match guarantees the shortest move sequence.
+
+Though BFS is not optimal for speed or memory in large-depth searches, it's sufficient for short scrambles and guarantees the **shortest path** in terms of moves.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** C++
+- **Graphics API:** OpenGL
+- **Math:** GLM (optional), custom matrix logic
+- **Platform:** Windows / Linux
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Requirements
+
+- C++ Compiler (e.g., g++, clang++)
+- OpenGL
+- GLUT or FreeGLUT
+- CMake (optional)
+
+### 🔨 Build & Run
+
+```bash
+# Clone the repository
+git clone https://github.com/Sparsh12321/Rubik-s-Cube-Solver-OpenGL.git
+cd Rubik-s-Cube-Solver-OpenGL
+
+# Compile (example using g++)
+g++ main.cpp -o cube_solver -lGL -lGLU -lglut
+
+# Run the executable
+./cube_solver
