@@ -26,7 +26,19 @@ A 3D interactive Rubik’s Cube visualizer and solver built using **OpenGL** and
 ![IMG-20250715-WA0008](https://github.com/user-attachments/assets/62633c5b-3ebc-465b-8680-367424c5aaf7)
 
 ---
+## 🎮 Controls
 
+| Key       | Action                 |
+|-----------|------------------------|
+| `U`, `u`  | Rotate Up face (clockwise/counterclockwise) |
+| `D`, `d`  | Rotate Down face       |
+| `L`, `l`  | Rotate Left face       |
+| `R`, `r`  | Rotate Right face      |
+| `F`, `f`  | Rotate Front face      |
+| `B`, `b`  | Rotate Back face       |
+| `S`       | Auto-Solve the cube using BFS |
+| `Arrow Keys` | Rotate the 3D cube view |
+| `Q/E`     | Zoom in/out (if implemented) |
 ## 🧠 Algorithm - BFS Explained
 
 This project uses **Breadth-First Search (BFS)** to solve the Rubik's Cube:
