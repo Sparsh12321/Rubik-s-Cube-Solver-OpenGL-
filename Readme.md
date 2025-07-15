@@ -20,6 +20,10 @@ A 3D interactive Rubik’s Cube visualizer and solver built using **OpenGL** and
 ---
 
 ## 📸 Demo
+![IMG-20250715-WA0009](https://github.com/user-attachments/assets/90660782-58d6-43e3-b9ea-270aacea86c9)
+![IMG-20250715-WA0007](https://github.com/user-attachments/assets/df58663b-c8fd-4cda-a497-2887a8c4840a)
+![IMG-20250715-WA0006](https://github.com/user-attachments/assets/3036a46e-0312-408d-8e50-dc4d71393898)
+![IMG-20250715-WA0008](https://github.com/user-attachments/assets/62633c5b-3ebc-465b-8680-367424c5aaf7)
 
 ---
 
